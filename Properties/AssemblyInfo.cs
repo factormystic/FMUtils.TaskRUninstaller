@@ -7,9 +7,9 @@ using System.Resources;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("FMUtils.TaskRUninstaller")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Self-deleting scheduled task runner/uninstaller for ClickOnce cleanup")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("factormystic.net")]
 [assembly: AssemblyProduct("FMUtils.TaskRUninstaller")]
 [assembly: AssemblyCopyright("Copyright © Factor Mystic 2013")]
 [assembly: AssemblyTrademark("")]

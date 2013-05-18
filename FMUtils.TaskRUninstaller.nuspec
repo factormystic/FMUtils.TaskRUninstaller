@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>FMUtils.TaskRUninstaller</title>
+    <authors>factormystic.net</authors>
+    <owners>factormystic</owners>
+    <licenseUrl>https://github.com/factormystic/FMUtils.TaskRUninstaller/blob/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/factormystic/FMUtils.TaskRUninstaller#readme</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Self-deleting scheduled task runner/uninstaller for ClickOnce cleanup</description>
+    <releaseNotes>Initial package release</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>taskscheduler task schedule cron at clickonce uninstall</tags>
+  </metadata>
+</package>
