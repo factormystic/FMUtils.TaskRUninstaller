@@ -20,4 +20,4 @@ When you include it in your project, it'll create `FMUtils.TaskRUninstaller.exe`
 
 On your application's first run, copy these files to a writable location that will survive uninstallation (for example, your vendor directory in `%AppData%`), and run it with the `install` parameter (see below).
 
-It will install a task in the system Task Scheduler with the `runinstall` parameter, that you can use to start your ClickOnce application on user login. If your application path can't be found (eg, because it's been uninstalled), this utility will remove the Scheduled Task and delete itself.
+It will install a task in the system Task Scheduler with the `runinstall` parameter, that you can use to start your ClickOnce application on user login. If your application path can't be found (eg, because it's been uninstalled), this utility will remove the Scheduled Task and delete itself and it's parent directory (so be careful where you put it).
